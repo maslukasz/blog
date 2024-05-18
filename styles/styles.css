@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+}
+
+.posts {
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 5px;
+
+}
+
+
+.posts a {
+    color: white;
+    list-style-type: none;
+}
+
+.posts strong {
+    color: gray;
+}
